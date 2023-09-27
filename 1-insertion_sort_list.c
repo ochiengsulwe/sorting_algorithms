@@ -2,7 +2,7 @@
 
 /**
  * insertion_sort_list - sorts a singly linked list in an ascending order,
- * 	implementing the insertion sort algorithm.
+ *	implementing the insertion sort algorithm.
  * @list: pointer to the list to be assorted.
  */
 void insertion_sort_list(listint_t **list)
@@ -13,7 +13,7 @@ void insertion_sort_list(listint_t **list)
 		return;
 
 	current = (*list)->next;
-	while(current)
+	while (current)
 	{
 		temp = current->next;
 		while (current->prev && current->n < current->prev->n)
