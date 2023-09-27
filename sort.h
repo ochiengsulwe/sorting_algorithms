@@ -2,6 +2,7 @@
 #define _SORT_H
 
 #include <stdlib.h>
+#include <string.h>
 #include <stdio.h>
 
 /**
@@ -22,6 +23,8 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
+void psy_sort(int *array, size_t size, int first, int last);
+int lomuto(int *array, size_t size, int first, int last);
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void selection_sort(int *array, size_t size);
