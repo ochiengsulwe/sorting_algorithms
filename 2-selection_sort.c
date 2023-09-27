@@ -1,4 +1,4 @@
-nclude "sort.h"
+#include "sort.h"
 
 /**
  * selection_sort - array of int sorted using selection sort
