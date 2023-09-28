@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * quick_sort - function that sorts in a quick way 
+ * quick_sort - function that sorts in a quick way
  * @array: array available
  * @size: total size of array
  */
